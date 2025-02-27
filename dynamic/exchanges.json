@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Bibox",
+        "url": "https://www.bibox.com/zh/exchange/basic/SXP_USDT",
+        "status": "Supported"
+    },
+    {
+        "name": "Binance",
+        "url": "https://www.binance.com/en/trade/SXP_USDT?ref=40896146",
+        "status": "Supported"
+    },
+    {
+        "name": "Bitget",
+        "url": "https://www.bitget.com/en/spot/SXPUSDT_SPBL?type=spot",
+        "status": "Supported"
+    },
+    {
+        "name": "Bithumb",
+        "url": "https://www.bithumb.com/trade/order/SXP_KRW",
+        "status": "Supported"
+    },
+    {
+        "name": "Bitmart",
+        "url": "https://www.bitmart.com/trade/en?symbol=SXP_USDT",
+        "status": "Supported"
+    },
+    {
+        "name": "Bitstamp",
+        "url": "",
+        "status": "Pending"
+    },
+    {
+        "name": "ChangeNOW",
+        "url": "https://changenow.io/currencies/solar-network",
+        "status": "Supported"
+    },
+    {
+        "name": "CoinEx",
+        "url": "https://www.coinex.com/exchange/SXP-USDT",
+        "status": "Supported"
+    },
+    {
+        "name": "Coinmerce",
+        "url": "https://coinmerce.io/en/solar/",
+        "status": "Supported"
+    },
+    {
+        "name": "Coinone",
+        "url": "https://coinone.co.kr/exchange/trade/sxp/krw",
+        "status": "Supported"
+    },
+    {
+        "name": "Exolix",
+        "url": "https://exolix.com/",
+        "status": "Supported"
+    },
+    {
+        "name": "Gate.io",
+        "url": "https://gate.io/trade/sxp_usdt",
+        "status": "Supported"
+    },
+    {
+        "name": "HitBTC",
+        "url": "https://hitbtc.com/sxp-to-usdt",
+        "status": "Supported"
+    },
+    {
+        "name": "HTX",
+        "url": "https://www.htx.com/en-us/trade/sxp_usdt",
+        "status": "Supported"
+    },
+    {
+        "name": "Huobi",
+        "url": "https://www.huobi.com/en-us/exchange/sxp_usdt",
+        "status": "Supported"
+    },
+    {
+        "name": "Jubi",
+        "url": "https://www.jbex.com/exchange/SXP2/USDT",
+        "status": "Supported"
+    },
+    {
+        "name": "Kucoin",
+        "url": "https://www.kucoin.com/trade/SXP-BTC",
+        "status": "Supported"
+    },
+    {
+        "name": "Lbank",
+        "url": "https://www.lbank.info/exchange/sxp/usdt",
+        "status": "Supported"
+    },
+    {
+        "name": "MEXC",
+        "url": "https://www.mexc.com/exchange/SXP_USDT",
+        "status": "Supported"
+    },
+    {
+        "name": "Poloniex",
+        "url": "https://poloniex.com/trade/SXP_USDT?type=spot",
+        "status": "Supported"
+    },
+    {
+        "name": "SimpleSwap",
+        "url": "https://simpleswap.io/coins/sxp",
+        "status": "Supported"
+    },
+    {
+        "name": "StealthEX",
+        "url": "https://stealthex.io/coin/solar/",
+        "status": "Supported"
+    },
+    {
+        "name": "Upbit",
+        "url": "https://upbit.com/exchange?code=CRIX.UPBIT.KRW-SXP",
+        "status": "Supported"
+    },
+    {
+        "name": "Whitebit",
+        "url": "https://whitebit.com/trade/SXP-USDT",
+        "status": "Supported"
+    }
+]
