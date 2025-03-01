@@ -5,8 +5,13 @@
         "status": "Supported"
     },
     {
+        "name": "Biconomy",
+        "url": "https://www.biconomy.com/exchange/SXP_USDT",
+        "status": "Supported"
+    },
+    {
         "name": "Binance",
-        "url": "https://www.binance.com/en/trade/SXP_USDT?ref=40896146",
+        "url": "https://www.binance.com/en/trade/SXP_USDT",
         "status": "Supported"
     },
     {
@@ -21,17 +26,12 @@
     },
     {
         "name": "Bitmart",
-        "url": "https://www.bitmart.com/trade/en?symbol=SXP_USDT",
+        "url": "https://www.bitmart.com/trade/en-US?symbol=SXP_USDT",
         "status": "Supported"
     },
     {
-        "name": "Bitstamp",
-        "url": "",
-        "status": "Pending"
-    },
-    {
         "name": "ChangeNOW",
-        "url": "https://changenow.io/currencies/solar-network",
+        "url": "https://changenow.io/",
         "status": "Supported"
     },
     {
@@ -56,7 +56,7 @@
     },
     {
         "name": "Gate.io",
-        "url": "https://gate.io/trade/sxp_usdt",
+        "url": "https://www.gate.io/trade/SXP_USDT",
         "status": "Supported"
     },
     {
@@ -67,16 +67,6 @@
     {
         "name": "HTX",
         "url": "https://www.htx.com/en-us/trade/sxp_usdt",
-        "status": "Supported"
-    },
-    {
-        "name": "Huobi",
-        "url": "https://www.huobi.com/en-us/exchange/sxp_usdt",
-        "status": "Supported"
-    },
-    {
-        "name": "Jubi",
-        "url": "https://www.jbex.com/exchange/SXP2/USDT",
         "status": "Supported"
     },
     {
@@ -101,12 +91,12 @@
     },
     {
         "name": "SimpleSwap",
-        "url": "https://simpleswap.io/coins/sxp",
+        "url": "https://simpleswap.io/",
         "status": "Supported"
     },
     {
         "name": "StealthEX",
-        "url": "https://stealthex.io/coin/solar/",
+        "url": "https://stealthex.io/",
         "status": "Supported"
     },
     {
@@ -116,7 +106,7 @@
     },
     {
         "name": "Whitebit",
-        "url": "https://whitebit.com/trade/SXP-USDT",
+        "url": "https://whitebit.com/trade/SXP_USDT",
         "status": "Supported"
     }
 ]
