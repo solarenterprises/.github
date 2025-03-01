@@ -11,27 +11,27 @@
     },
     {
         "name": "Binance",
-        "url": "https://www.binance.com/en/trade/SXP_USDT",
+        "url": "https://www.binance.com/en/trade/SXP_USDT?type=spot",
         "status": "Supported"
     },
     {
         "name": "Bitget",
-        "url": "https://www.bitget.com/en/spot/SXPUSDT_SPBL?type=spot",
+        "url": "https://www.bitget.com/spot/SXPUSDT",
         "status": "Supported"
     },
     {
         "name": "Bithumb",
-        "url": "https://www.bithumb.com/trade/order/SXP_KRW",
+        "url": "https://www.bithumb.com/react/trade/order/SXP-KRW",
         "status": "Supported"
     },
     {
         "name": "Bitmart",
-        "url": "https://www.bitmart.com/trade/en-US?symbol=SXP_USDT",
+        "url": "https://www.bitmart.com/trade/en-US?symbol=SXP_USDT&type=spot",
         "status": "Supported"
     },
     {
         "name": "ChangeNOW",
-        "url": "https://changenow.io/",
+        "url": "https://changenow.io/?from=sxpmainnet",
         "status": "Supported"
     },
     {
@@ -66,17 +66,17 @@
     },
     {
         "name": "HTX",
-        "url": "https://www.htx.com/en-us/trade/sxp_usdt",
+        "url": "https://www.htx.com/trade/sxp_usdt",
         "status": "Supported"
     },
     {
         "name": "Kucoin",
-        "url": "https://www.kucoin.com/trade/SXP-BTC",
+        "url": "https://www.kucoin.com/trade/SXP-USDT",
         "status": "Supported"
     },
     {
         "name": "Lbank",
-        "url": "https://www.lbank.info/exchange/sxp/usdt",
+        "url": "https://www.lbank.com/trade/sxp_usdt",
         "status": "Supported"
     },
     {
@@ -91,12 +91,12 @@
     },
     {
         "name": "SimpleSwap",
-        "url": "https://simpleswap.io/",
+        "url": "https://simpleswap.io/exchange?from=sxp-sxp",
         "status": "Supported"
     },
     {
         "name": "StealthEX",
-        "url": "https://stealthex.io/",
+        "url": "https://stealthex.io/?&from=sxpmainnet",
         "status": "Supported"
     },
     {
@@ -106,7 +106,7 @@
     },
     {
         "name": "Whitebit",
-        "url": "https://whitebit.com/trade/SXP_USDT",
+        "url": "https://whitebit.com/trade/SXP-USDT?type=spot",
         "status": "Supported"
     }
 ]
