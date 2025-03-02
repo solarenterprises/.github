@@ -1,0 +1,218 @@
+[
+    {
+        "title": "Solar Core 5.0",
+        "description": "Next-generation blockchain core upgrade, enhancing security and scalability.",
+        "tasks": [
+            {
+                "title": "Byzantine Fault Tolerance (BFT) Consensus",
+                "status": "testing",
+                "details": "Solar Core 5.0 introduces a Byzantine Fault Tolerance (BFT) consensus model, providing a robust solution for network consensus, even in the presence of faulty or malicious activities. By combining BFT with aggregated Boneh-Lynn-Schacham (BLS) signatures, we ensure immediate block finality and a fork-resistant network. This also enhances security by allowing block producers to run multiple nodes simultaneously, selecting only active block producers for optimal uptime and reliability."
+            },
+            {
+                "title": "Solar Virtual Machine (SVM)",
+                "status": "in-progress",
+                "details": "The Solar Virtual Machine (SVM) is being developed to integrate with Solar Core, inspired by the Ethereum Virtual Machine. It will support Ethereum-compatible tools such as MetaMask and Solidity.\\n\\n\\n\\nDevelopment Roadmap:\\n\\n1. Defining requirements and feasibility studies (Done)\\n\\n2. Developing a proof of concept (Done)\\n\\n3. Refining the proof of concept into a product (In Progress)\\n\\n4. Integrating SVM into Solar Core\\n\\n5. Conducting security and correctness testing\\n\\n6. Public Testnet release"
+            },
+            {
+                "title": "Permissioned Keys",
+                "status": "in-progress",
+                "details": "Introducing permissioned keys for enhanced security, allowing users to enable specific wallet functions without using their master mnemonic. Users can register multiple permissioned keys with specific rights, such as sending a set amount of SXP or updating a wallet vote, while the master mnemonic retains full control."
+            },
+            {
+                "title": "Username Registration",
+                "status": "in-progress",
+                "details": "Solar Core 5.0 introduces username registration, allowing users to create human-readable blockchain addresses without needing to be block producers. This enables easy transactions, additional metadata storage (avatars, bios), and potential cross-chain support."
+            },
+            {
+                "title": "Node Management Enhancements",
+                "status": "in-progress",
+                "details": "Solar Core 5.0 enhances node operations by:\\n\\n- Improving security by switching from PostgreSQL to SQLite3\\n\\n- Streamlining node management interface\\n\\n- Disabling Public API by default for better security\\n\\n- Restricting plugins to relay nodes (non-block producers)"
+            },
+            {
+                "title": "Solarscan - Blockchain Explorer",
+                "status": "in-progress",
+                "details": "A cutting-edge block explorer that tracks transactions, network health, and the latest blocks in real time. Solarscan continuously evolves with Solar Core 5.0, providing personalised wallet views for mainnet and testnet."
+            },
+            {
+                "title": "Documentation & SDK",
+                "status": "planned",
+                "details": "A comprehensive documentation suite and SDKs for developers, initially supporting TypeScript, JavaScript, Python, and Solidity. The documentation will evolve alongside the blockchain’s development."
+            },
+            {
+                "title": "Wallets",
+                "status": "planned",
+                "details": "The Solar Wallet will expand beyond basic transactions, introducing token creation, smart contract interactions, and multi-wallet compatibility, including MetaMask and ERC20/EVM support."
+            }
+        ]
+    },
+    {
+        "title": "Solar Mobile Wallet",
+        "description": "Seamless digital asset management with multi-currency support.",
+        "tasks": [
+            { "title": "Android Release", "status": "completed", "details": "Fully available on Google Play." },
+            { "title": "Voting Integration", "status": "completed", "details": "Users can vote with SXP directly from the wallet." },
+            { "title": "Multi-Currency Support", "status": "completed", "details": "Supports SXP, BNB, ETH, BTC, and more." },
+            { "title": "Exchange Features", "status": "completed", "details": "Built-in trading and swapping functionalities." },
+            { "title": "Fiat On/Off Ramp", "status": "completed", "details": "Enables seamless crypto-to-fiat transactions." },
+            { "title": "iOS Release", "status": "in-progress", "details": "Final testing before App Store launch. Already available on TestFlight." },
+            { 
+                "title": "V2 Research & Development", 
+                "status": "in-progress", 
+                "details": "Exploring enhancements such as:\\n- Improved UX/UI\\n- Expanded cryptocurrency support\\n- Tymt integration for chat and contacts\\n- Staking pools on multiple networks\\n- New fiat on/off-ramp solutions with IBAN support\\n- Exploring BrighterVPN integration (Researching potential feasibility; not all features will be implemented)." 
+            },
+            { "title": "Expanded Currency Support", "status": "planned", "details": "Plans to support over 100 cryptocurrencies." },
+            { "title": "V2 Release", "status": "planned", "details": "Integrating Solar Card, Tymt, and other ecosystem products." },
+            { "title": "Multi-Account Support", "status": "planned", "details": "Manage multiple profiles and addresses within a single app, similar to the Solar Desktop Wallet." }
+        ]
+    },
+        {
+            "title": "Solar Card",
+            "description": "Bridging digital assets with real-world financial utility.",
+            "tasks": [
+                { 
+                    "title": "Vault API v1 Integration", 
+                    "status": "completed", 
+                    "details": "Initial integration enabling the launch of the Solar Card PWA, supporting both virtual and physical cards." 
+                },
+                { 
+                    "title": "Crypto Wallets", 
+                    "status": "completed", 
+                    "details": "Supports multiple digital assets." 
+                },
+                { 
+                    "title": "Burn Mechanism (Post-V3 Implementation)", 
+                    "status": "testing", 
+                    "details": "The Solar Enterprises and Solar Card teams will begin burning a percentage of fees and income via the Solar blockchain. (Note: The Solar Blockchain itself is not directly involved in the burning process.)" 
+                },
+                { 
+                    "title": "Vault API v2 Integration", 
+                    "status": "testing", 
+                    "details": "Adds IBAN accounts, multi-tier subscriptions, and supports additional currencies, including SXP, while expanding country availability." 
+                },
+                { 
+                    "title": "Virtual Cards", 
+                    "status": "testing", 
+                    "details": "Supports online transactions with Apple Pay, Google Pay, and Samsung Pay." 
+                },
+                { 
+                    "title": "Physical Cards", 
+                    "status": "testing", 
+                    "details": "Enables in-store payments via contactless and chip transactions." 
+                },
+                { 
+                    "title": "IBAN Integration", 
+                    "status": "testing", 
+                    "details": "Provides IBAN accounts for fiat transactions." 
+                },
+                { 
+                    "title": "Multi-Tier System", 
+                    "status": "testing", 
+                    "details": "Tiers are determined by the amount of SXP staked, unlocking additional benefits." 
+                },
+                { 
+                    "title": "Vault API v3 Integration", 
+                    "status": "planned", 
+                    "details": "Future updates will introduce in-app staking, staking pools, and a referral rewards system (backward-compatible payout system for past referrals)." 
+                }
+            ]
+        },
+        {
+            "title": "Tymt",
+            "description": "The next-generation blockchain gaming platform.",
+            "tasks": [
+                { 
+                    "title": "Mobile Metamask Integration", 
+                    "status": "testing", 
+                    "details": "Enables wallet authentication for mobile gamers; set for release in Tymt 2.2.2." 
+                },
+                { 
+                    "title": "Hyperplay Integration", 
+                    "status": "testing", 
+                    "details": "Expanding compatibility for Hyperplay-enabled games, also launching in Tymt 2.2.2." 
+                },
+                { 
+                    "title": "Guest Login", 
+                    "status": "testing", 
+                    "details": "Allows new users to explore the platform without requiring immediate wallet creation. A wallet is only required once they receive cryptocurrency to secure their funds." 
+                },
+                { 
+                    "title": "Game Review System", 
+                    "status": "in-progress", 
+                    "details": "Allows players to review games, leave star ratings, and post comments." 
+                },
+                { 
+                    "title": "Tymt SDK", 
+                    "status": "in-progress", 
+                    "details": "Provides tools for developers to integrate Web3 functionality into new and existing games." 
+                },
+                { 
+                    "title": "Browser Metamask Integration", 
+                    "status": "in-progress", 
+                    "details": "Extending wallet functionality to desktop gaming." 
+                },
+                { 
+                    "title": "Private Games Selection", 
+                    "status": "in-progress", 
+                    "details": "Allows users to enable or restrict access to token-gated games. These may contain adult content, strong language, or mature themes." 
+                },
+                { 
+                    "title": "FoxBox (Gaming Console)", 
+                    "status": "in-progress", 
+                    "details": "Developing a Web3-native gaming console supporting the entire Tymt library.\\n\\n- Fully compatible with controllers and VR.\\n\\n- Mobile login via the Tymt mobile app to prevent exposing private keys on-screen.\\n\\n- Encourages Web3 developers to build 'couch-friendly' blockchain games, addressing a market gap." 
+                },
+                { 
+                    "title": "Moon.Store Marketplace", 
+                    "status": "in-progress", 
+                    "details": "Moon.Store will be rebranded as Tymt Marketplace.\\n\\n- Will serve as both a digital and physical marketplace.\\n\\n- Supports trading in-game assets and NFTs.\\n\\n- Allows developers to sell merchandise directly to players.\\n\\n- Users can create, mint, and list NFTs." 
+                },
+                { 
+                    "title": "Developer Console", 
+                    "status": "planned", 
+                    "details": "A central hub for developers, similar to Google Play Console.\\n\\n- Native game listing will require a small fee.\\n\\n- Web3 game developers can self-onboard by submitting a GitHub pull request.\\n\\n- Automated checks for security, malware, and content quality." 
+                },
+                { 
+                    "title": "Learn & Earn", 
+                    "status": "planned", 
+                    "details": "Developers can reward players with tokens for engaging with their games, completing challenges, or participating in research campaigns." 
+                },
+                { 
+                    "title": "Advertising System", 
+                    "status": "planned", 
+                    "details": "Developers can promote their games within Tymt Launcher, incentivizing users to try their games via token-based rewards." 
+                },
+                { 
+                    "title": "In-App Exchange", 
+                    "status": "planned", 
+                    "details": "Players can swap earned cryptocurrencies for other assets, either manually or via automated exchange mechanisms." 
+                },
+                { 
+                    "title": "Tymt Browser", 
+                    "status": "planned", 
+                    "details": "A dedicated browser within Tymt Launcher to display all browser-based Web3 games." 
+                }
+            ]
+        },
+    
+    {
+        "title": "BrighterVPN",
+        "description": "A privacy-focused VPN service for secure and unrestricted internet access.",
+        "tasks": [
+            { "title": "Android Release", "status": "completed", "details": "Available for download on Google Play." },
+            { "title": "iOS Release", "status": "in-progress", "details": "Fully developed and available on TestFlight, awaiting final approval for the official App Store release." },
+            { "title": "Windows Release", "status": "in-progress", "details": "Currently in beta testing with enhanced security features." },
+            { "title": "Linux Release", "status": "in-progress", "details": "A native Linux application is under development." },
+            { "title": "Multi-Platform Support", "status": "in-progress", "details": "Expanding to macOS, browser extensions, gaming consoles, and more. These developments are progressing in parallel." },
+            { "title": "eSIM Integration", "status": "in-progress", "details": "Soon, users will be able to purchase eSIMs and manage top-ups directly within the app, ensuring seamless global connectivity." }
+        ]
+    },
+    {
+        "title": "District 53",
+        "description": "An immersive blockchain-powered metaverse.",
+        "tasks": [
+            { "title": "Land Ownership System", "status": "testing", "details": "Allowing users to buy, sell, and develop virtual land." },
+            { "title": "NFT Marketplace", "status": "planned", "details": "A decentralised platform for in-game asset trading and ownership." },
+            { "title": "Social Features", "status": "planned", "details": "Integrating chat functionality, avatars, and community-driven interactions." },
+            { "title": "New Release", "status": "planned", "details": "A major update is set to launch following Tymt 2.2.2, bringing new features and enhancements to the metaverse." }
+        ]
+    }
+]
