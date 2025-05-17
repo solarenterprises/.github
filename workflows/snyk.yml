@@ -1,4 +1,4 @@
-name: Snyk Scan
+name: Snyk Security Scan
 
 on:
   pull_request:
@@ -6,26 +6,27 @@ on:
     branches:
       - main
       - master
-      - prod
       - dev
+      - prod
 
 jobs:
-  security:
+  snyk:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Set up Node.js (or PHP, Python etc.)
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
+      - name: Install Snyk CLI
+        run: npm install -g snyk
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run Snyk
-        uses: snyk/actions/node@master
+      - name: Run Snyk Test
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        with:
-          command: test
+        run: snyk test
+
+      - name: Monitor project on Snyk
+        if: github.ref == 'refs/heads/prod'
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        run: snyk monitor
